@@ -13,7 +13,7 @@
  * Referencia: https://javascript.info/import-export
  */
 
-import { addRow } from "./functions.js";
+
 import { setTitle } from "./functions.js";
 
 
