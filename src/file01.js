@@ -14,6 +14,7 @@
  */
 
 import { addRow } from "./functions.js";
+import { setTitle } from "./functions.js";
 
 
 /** 
