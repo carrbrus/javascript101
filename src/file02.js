@@ -42,13 +42,13 @@ const frameworks = [
  */
 
 frameworks.forEach ((entry) => {
-  const [name, date, users, popularity] = entry.split("|").map(item => item.trim());
+  const [name, date, users, popularity] = entry.split("|").map(value => value.trim());
 
    const frameworkObj = {
-    frameworkName: name,
-    releaseDate: date,
-    usersName: users,
-    popularityPercentage: popularity
+    frameworkName,
+    releaseDate,
+    usersName,
+    popularityPercentage
   };
 
   addRow(frameworkObj, "data-frameworks");
